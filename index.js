@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function(request, response) {
   console.log("Hello World");
   response.writeHead(200, {'Content-Type': 'text/plain'});
-  response.end('Hello World!!\n');
+  response.end('Hello GitHub!!\n');
 });
 
 app.listen(app.get('port'), function() {
